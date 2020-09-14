@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
                 .setScale(0.2f) // Scaletheoriginalmodelto 20%.
                 .setRecenterMode(RenderableSource.RecenterMode.ROOT)
                 .build())
-            .setRegistryId("CesiumMan")
+            .setRegistryId("Duck")
             .build()
         renderableFuture.thenAccept{ it -> testRenderable = it }
         renderableFuture.exceptionally{ throwable-> testRenderable}
